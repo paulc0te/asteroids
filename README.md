@@ -20,8 +20,9 @@ pip3.12 freeze
 
 ### Launch in Windows 11
 
-https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps
+[information about wsl](https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
 
+```bash
 run powershell
 wsl --install
 sudo apt install x11-apps -y
@@ -33,3 +34,4 @@ python3.12 -m venv venv
 . venv/bin/activate
 pip3.12 install -r requirements.txt
 python3.12 main.py
+```
