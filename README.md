@@ -12,7 +12,8 @@ It's an [Asteroids](https://en.wikipedia.org/wiki/Asteroids_(video_game))  like 
 
 ```bash
 cd /u01/workspace/github.com/paulc0te/asteroids
-python3 -m venv venv
-pip install -r requirements.txt
+python3.12 -m venv venv
 . venv/bin/activate
+pip3.12 install -r requirements.txt
+pip3.12 freeze
 ```
