@@ -17,3 +17,19 @@ python3.12 -m venv venv
 pip3.12 install -r requirements.txt
 pip3.12 freeze
 ```
+
+### Launch in Windows 11
+
+https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps
+
+run powershell
+wsl --install
+sudo apt install x11-apps -y
+sudo apt update
+Install python3.12, pip3.12
+wsl# cd /u01/asteroids
+rm -rf venv
+python3.12 -m venv venv
+. venv/bin/activate
+pip3.12 install -r requirements.txt
+python3.12 main.py
