@@ -23,6 +23,8 @@ pip3.12 freeze
 [information about wsl](https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
 
 ```bash
+for MS VS neet to install estentions: wsl python, wsl, wsl remote develop
+
 run powershell
 wsl --install
 sudo apt install x11-apps -y
