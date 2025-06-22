@@ -18,6 +18,12 @@ pip3.12 install -r requirements.txt
 pip3.12 freeze
 ```
 
+circleshape.py  
+![Base class for game objects](image.png)
+
+
+
+
 ### Launch in Windows 11
 
 [information about wsl](https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
