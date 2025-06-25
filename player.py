@@ -23,6 +23,7 @@ class Player(CircleShape):
 
     def update(self, dt):
         self.shoot_timer -= dt
+# Keys processing
         keys = pygame.key.get_pressed()
 
         if keys[pygame.K_w]:
