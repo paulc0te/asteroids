@@ -49,7 +49,7 @@ def main():
             for shot in shots:
                 if asteroid.collides_with(shot):
                     shot.kill()     # kill object
-                    asteroid.kill()
+                    asteroid.split()
 
 
 # Coloring Screen
